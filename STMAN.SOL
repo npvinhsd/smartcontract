@@ -860,7 +860,7 @@ contract BEP20 is Context, IBEP20, Ownable {
 }
 
 // StickMan Token
-contract STManToken  is BEP20('StickMan', 'STMan') {
+contract STManToken  is BEP20('STICKMAN BATTLEGROUND', 'STMan') {
     BPContract public BP;
     bool public bpEnabled;
     event BPAdded(address indexed bp);
